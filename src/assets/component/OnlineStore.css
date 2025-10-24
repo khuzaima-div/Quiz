@@ -1,0 +1,43 @@
+.Store {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px; 
+  justify-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.Card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 350px;
+  padding: 10px;
+  width: 250px;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: black;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+}
+.Card h5{
+color: rgba(246, 133, 4, 0.753);
+font-weight: 900;
+}
+.Navbar{
+  border: 1px solid rgba(31, 29, 28, 0.888);
+  background-color: rgb(6, 43, 101);
+  margin-top: 2px;
+
+}
+body{
+  background-color: rgba(31, 30, 30, 0.63);
+}
